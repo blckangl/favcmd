@@ -11,8 +11,17 @@
     "start": "node ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "dia",
-  "license": "ISC",
+  "keywords": [
+    "cli",
+    "commands",
+    "favorites"
+  ],
+  "author": "Dia",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blckangl/favcmd.git"
+  },
   "description": "A CLI tool for managing your favorite commands.",
   "dependencies": {
     "@types/figlet": "^1.5.8",
