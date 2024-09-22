@@ -6,6 +6,11 @@ A CLI tool for managing your favorite commands.
 
 ## Installation
 
+<p>To install <code>favcmd</code> from npm, run the following command:</p>
+
+<pre><code>npm install -g favcmd
+</code></pre>
+
 To install `favcmd`, follow these steps:
 
 1.  Clone the repository:
