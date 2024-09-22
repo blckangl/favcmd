@@ -22,6 +22,7 @@
     "type": "git",
     "url": "https://github.com/blckangl/favcmd.git"
   },
+  "homepage": "https://github.com/blckangl/favcmd#readme",
   "description": "A CLI tool for managing your favorite commands.",
   "dependencies": {
     "@types/figlet": "^1.5.8",
