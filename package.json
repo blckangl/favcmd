@@ -1,0 +1,29 @@
+{
+  "name": "favcmd",
+  "version": "0.1.1",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "favcmd": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dia",
+  "license": "ISC",
+  "description": "A CLI tool for managing your favorite commands.",
+  "dependencies": {
+    "@types/figlet": "^1.5.8",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "figlet": "^1.7.0",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.6.2"
+  }
+}
