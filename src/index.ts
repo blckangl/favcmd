@@ -15,11 +15,14 @@ const filePath = path.join(dir, 'fav-cmd.json');
 if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir, { recursive: true });
 }
+if (!fs.existsSync(filePath)) {
+  fs.writeFileSync(filePath, JSON.stringify([], null, 2));
+}
 
 console.log(figlet.textSync('favcmd'));
 console.info(chalk.bgGray('Config file loaded ', filePath));
 program
-  .version('0.1.1')
+  .version('0.1.2')
   .description('A CLI tool to manage your favorite commands.')
   .option(
     '-l, --ls [filter]',
