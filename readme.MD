@@ -1,12 +1,8 @@
+favcmd
+
 # favcmd
 
-**favcmd** is a simple CLI tool that helps you save and manage your favorite commands. With this tool, you can quickly access frequently used commands, making your workflow more efficient.
-
-## Features
-
-- **List Commands**: View all your saved commands, with optional filtering.
-- **Add Command**: Save a new favorite command with an alias, description, and category.
-- **Clear Commands**: Remove all saved commands with a single command.
+A CLI tool for managing your favorite commands.
 
 ## Installation
 
@@ -31,53 +27,16 @@ To install `favcmd`, follow these steps:
 
 ## Usage
 
-After installation, you can use the following commands:
+Here are the available commands:
 
-### List Commands
-
-To list all your saved commands:
-
-    favcmd --ls
-
-You can filter the list by providing a keyword:
-
-    favcmd --ls [filter]
-
-`[filter]`: A keyword to filter commands by alias or description.
-
-### Add Command
-
-To add a new favorite command, use:
-
-    favcmd --add <alias> <description> <category>
-
-`<alias>`: The alias for your command.  
-`<description>`: A brief description of the command.  
-`<category>`: The category for the command.
-
-**Example:**
-
-    favcmd --add ll "List files with detailed info" "file management"
-
-### Clear Commands
-
-To clear all saved commands:
-
-    favcmd --clear
+- `-l, --ls [filter]`: List your favorite commands.
+- `-a, --add <alias> <description> <category>`: Add a new favorite command with an alias, description, and category.
+- `-c, --clear`: Clear all saved commands.
 
 ## License
 
-This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
-## Contributing
+## Author
 
-Contributions are welcome! Feel free to submit a pull request or open an issue for any suggestions or improvements.
-
-## Acknowledgments
-
-- Inspired by the need to streamline command usage in daily tasks.
-- Built with [Node.js](https://nodejs.org/) and [TypeScript](https://www.typescriptlang.org/).
-
-## Contact
-
-If you have any questions or feedback, feel free to reach out to me at [dhiaa.kahri@gmail.com](mailto:your-email@example.com).
+Created by [Dia](https://github.com/blckangl). Contact: [dhiaa.kahri@gmail.com](mailto:dhiaa.kahri@gmail.com)
