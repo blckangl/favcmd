@@ -25,7 +25,6 @@
   "homepage": "https://github.com/blckangl/favcmd#readme",
   "description": "A CLI tool for managing your favorite commands.",
   "dependencies": {
-    "@types/figlet": "^1.5.8",
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
     "figlet": "^1.7.0",
@@ -33,6 +32,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.5.5",
+    "@types/figlet": "^1.5.8",
     "tsc-alias": "^1.8.10",
     "typescript": "^5.6.2"
   }
